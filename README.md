@@ -8,6 +8,8 @@ This is a very simple calculator, it can only do operations with two numbers and
 
 ## Tkinter Calculator
 
+![Demonstration of the visuals of the calculator](visuals.png)
+
 My second project put the console calculator to shame! In one simple function it does everything the console calculator can't:
 
 ```python
