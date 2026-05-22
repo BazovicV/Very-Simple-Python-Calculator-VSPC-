@@ -1,6 +1,6 @@
 # Console and Tkinter Python Calculators
 
-### This is my first-ever Python project. I added it to GitHub for my own benefit and to aid anyone who is starting out like I am. I hope you find this repository helpful!
+_This is my first-ever Python project. I added it to GitHub for my own benefit and to aid anyone who is starting out like I am. I hope you find this repository helpful!_
 
 ## Console Calculator
 
