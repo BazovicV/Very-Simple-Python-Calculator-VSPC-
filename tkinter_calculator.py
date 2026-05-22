@@ -84,18 +84,18 @@ buttonsInput.pack(side="right")
 
 # Put entry and labels here
 
-input_text = ttk.Label(resultWrite, text="Input:", font="Fixedsys")
+input_text = tk.Label(resultWrite, text="Input:", font="Fixedsys")
 input_text.pack(side="top")
 
 write = ttk.Entry(resultWrite, textvariable=user_input, style="TEntry")
-write.pack(side="top", after=input_text)
+write.pack(side="top", fill="x", after=input_text)
 
-output_text = ttk.Label(resultWrite, text="Result:", font="Fixedsys")
+output_text = tk.Label(resultWrite, text="Result:", font="Fixedsys")
 output_text.pack(side="top", after=write)
 
 result = ttk.Entry(resultWrite, textvariable=output, style="TEntry")
 result.config(state="readonly")
-result.pack(side="top", after=output_text)
+result.pack(side="top", fill="x", after=output_text)
 
 # Put buttons here
 
