@@ -224,7 +224,8 @@ copy_history_button = ttk.Button(resultWrite, text="Copy", style="Copy.TButton",
 
 
 if sys.platform == "win32":
-    pass
+    clear_history_button.place(x=109, y=107)
+    copy_history_button.place(x=59, y=107)
 else:
     clear_history_button.place(x=139, y=115)
     copy_history_button.place(x=83, y=115)
@@ -248,7 +249,7 @@ history_menu.add_command(label=history_list[0])
 history["menu"] = history_menu # Telling Menubutton to use Menu
 
 if sys.platform == "win32":
-    pass
+    history.place(x=-15, y=107)
 else:
     history.place(x=0, y=115)
 
